@@ -1,0 +1,14 @@
+[package]
+name = "emscripten"
+version = "0.1.0"
+authors = ["Joshua <gnu.crazier@gmail.com>"]
+
+[[bin]]
+name = "test"
+
+[dependencies]
+libc = "0.2.16"
+
+[dependencies.emscripten-sys]
+path = "emscripten-sys"
+version = "0.1.0"
